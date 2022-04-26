@@ -15,7 +15,9 @@ couples Tweets related to different crypto assets with the corresponding price-a
 crypto assets, over a set period of time. We will then analyze this dataset in order to deduce how
 the Twitter sentiment of certain crypto assets affects the performances of those crypto assets.
 
+
 Dataset:
+
 We have used the NFT dataset available on Kaggle. For getting the crypto prices for one year, we have 
 scraped the coinmarketcap.com website. 
 
