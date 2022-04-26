@@ -18,7 +18,8 @@ the Twitter sentiment of certain crypto assets affects the performances of those
 
 Dataset:
 
-We have used the NFT dataset available on Kaggle. For getting the crypto prices for one year, we have 
+We have used the NFT dataset available on Kaggle : https://www.kaggle.com/datasets/simiotic/ethereum-nfts
+For getting the crypto prices for one year, we have 
 scraped the coinmarketcap.com website. 
 
 
