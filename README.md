@@ -15,6 +15,12 @@ couples Tweets related to different crypto assets with the corresponding price-a
 crypto assets, over a set period of time. We will then analyze this dataset in order to deduce how
 the Twitter sentiment of certain crypto assets affects the performances of those crypto assets.
 
+Dataset:
+We have used the NFT dataset available on Kaggle. For getting the crypto prices for one year, we have 
+scraped the coinmarketcap.com website. 
+
+
+Code Structure:
 
 Our code was modularized in order to make it more usable and more readable. There are a few
 important classes to take note of. The first of these classes is TweetSentimentAnalyzer. This class
@@ -24,6 +30,7 @@ instance by passing in a Twitter query, a start date, an end date, a time interv
 tweets to aggregate per time interval, and a Twitter API object. With this instance, we could
 generate a data frame with each row storing the average positive, negative, and neutral sentiment
 percentages for a different time interval.
+
 Another important class to note is NFTPriceAggregator. This class was responsible for
 calculating the average price for a particular NFT collection, across a number of defined
 intervals over a period of time. To use this class, we had to instantiate a new instance by passing
@@ -31,6 +38,7 @@ in an NFT collection name, a start date, an end date, a time interval, and data 
 information pertaining to NFT collections and NFT transfers (both loaded from Kaggle). With
 this instance, we could generate a data frame with each row storing the average normalized price
 for the collection for a different time interval.
+
 A third class to note is CryptoPriceAggregator. This class was responsible for calculating the
 average price for a particular cryptocurrency, across a number of defined intervals over a period
 of time. This class worked in the same way as the NFTPriceAggregator; the only difference is
