@@ -54,3 +54,16 @@ instances of those classes. With this instance, we could generate a data frame w
 storing both the average twitter sentiment and average normalized price for a crypto asset during
 a specific time interval. The crypto assets contained in the resulting data frame are the crypto
 assets represented in the dictionary passed in when creating the combiner object.
+
+
+References:
+
+1) https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-se
+arch-all
+2) https://www.nltk.org/_modules/nltk/sentiment/vader.html
+3) https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650
+ade58d
+4) https://www.kaggle.com/datasets/simiotic/ethereum-nfts
+5) https://medium.com/crypto-code/how-to-web-scraping-one-full-years-of-any-pricing-hist
+ory-from-coinmarketcap
+6) https://coinmarketcap.com/
